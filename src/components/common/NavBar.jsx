@@ -47,11 +47,11 @@ const NavBar = () => {
                             <button
                                 onClick={showNav}
                                 aria-label="contact us"
-                                className="w-full hover:bg-black duration-300 group py-3.5 px-5 max-w-[154px] text-deep-blue rounded-[0px_50px_50px_40px] bg-white flex font-bold text-base items-center text-nowrap l!eading-112"
+                                className="w-full hover:bg-black duration-300 transition-all ease-linear group py-3.5 px-5 max-w-[154px] text-deep-blue rounded-[0px_50px_50px_40px] hover:text-white bg-white flex font-bold text-base items-center text-nowrap !leading-112"
                             >
                                 Get Started
                                 <span>
-                                    <Icons icon="navIcon" />
+                                    <Icons icon="btn-arrow" />
                                 </span>
                             </button>
                         </li>
@@ -66,9 +66,9 @@ const NavBar = () => {
                                 <Icons icon="btn-arrow" />
                             </span>
                         </button>
-                        <label className="lg:hidden" onClick={showNav}>
+                        <label className="lg:hidden cursor-pointer" onClick={showNav}>
                             {show ? (
-                                <div className="z-30 relative">
+                                <div className="z-30 relative cursor-pointer">
                                     <span className="flex bg-white h-1 rounded-3xl duration-300 w-6"></span>
                                     <span className="flex bg-white h-1 rounded-3xl duration-300 w-6 mt-1"></span>
                                     <span className="flex bg-white h-1 rounded-3xl duration-300 w-6 mt-1"></span>

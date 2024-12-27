@@ -27,7 +27,7 @@ export default {
           115:"115%",
       },
          backgroundImage: {
-        hero: "url('/assets/images/png/hero-bg.png')",
+        hero: "url('/assets/images/webp/hero-bg.webp')",
       },
       backgroundSize: {
         full: "100% 100%",
