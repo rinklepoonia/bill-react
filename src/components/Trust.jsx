@@ -10,7 +10,7 @@ const Trust = () => {
     return (
         <div className="max-w-[1180px] px-5 mx-auto container lg:pt-[54px] md:pt-[168px] sm:pt-[132px] pt-[50px] pb-[162px]">
             <h2 className='max-lg:text-center text-2xl sm:text-3xl md:text-custom-4xl text-prussian-blue !leading-110 font-normal max-w-[548px] mb-6 sm:mb-10 md:mb-12 lg:mb-16 capitalize max-lg:mx-auto'>More than <span className='text-sky-blue font-bold'>80,000</span>+ companies trust bill central </h2>
-            <Swiper
+            <Swiper className='linear-slider'
                 modules={[Autoplay]}
                 slidesPerView={3}
                 spaceBetween={20}

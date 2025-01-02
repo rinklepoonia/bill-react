@@ -7,6 +7,36 @@
   src: url("/assets/fonts/Helvetica.ttf");
   font-display: swap;
 }
+*{
+  scroll-behavior: smooth;
+}
 body {
 font-family: "Helvetica", sans-serif !important;
 }
+.linear-slider .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+  .change-direction{
+    direction: rtl;
+  }
+  .swiper{
+    height: 710px !important;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0% !important;
+    margin-top: 20px !important;
+    z-index: 99!important;
+    ;
+  }
+  .swiper-pagination-bullet{
+    background: #00A8E8 !important;
+    width: 20px !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+    transition: all 300ms linear !important;
+  }
+  .swiper-pagination-bullet-active {
+    width: 40px !important;
+  }
+
+

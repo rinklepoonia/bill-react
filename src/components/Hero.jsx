@@ -54,6 +54,7 @@ const Hero = () => {
                         <div className="relative z-[2] lg:hidden max-lg-image sm:mt-20 mt-10">
                             <Image
                                 width={558} height={760}
+                                alt='hero'
                                 src="/assets/images/webp/hero-office.webp"
                                 className="hero-image object-cover object-top sm:max-w-[558px] sm:h-[400px] max-w-[450px] h-[300px] rounded w-full mx-auto"
                             />
@@ -61,6 +62,7 @@ const Hero = () => {
                                 <Image
                                     width={112} height={187}
                                     src="/assets/images/svg/hero-dots.svg"
+                                    alt='dotes'
                                     className="dots-image w-[112px] h-[187px] object-contain"
                                 />
                             </div>
@@ -70,11 +72,13 @@ const Hero = () => {
                         <div className="relative z-[2]">
                             <Image
                                 width={558} height={760}
+                                alt='hero-img'
                                 src="/assets/images/webp/hero-office.webp"
                                 className="object-cover xl:max-w-[558px] xl:h-[760px] max-w-[400px] h-unset rounded w-100"
                             />
                             <div className="absolute  top-[-47px] right-0 xl:right-[-39px] z-[-1]">
                                 <Image
+                                    alt='dotes'
                                     height={112} width={187}
                                     src="/assets/images/svg/hero-dots.svg"
                                     className="dots-image h-[112px] w-[187px] object-contain"

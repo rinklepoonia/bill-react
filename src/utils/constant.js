@@ -4,3 +4,4 @@ export const SERVICE_LINK_PATH = "#service";
 export const TESTMONIAL_LINK_PATH = "#testimonial";
 export const WHY_LINK_PATH = "#whyus";
 export const FAQ_LINK_PATH = "#faq";
+export const LINKEDIN_LINK= "https://www.linkedin.com/login"

@@ -47,7 +47,7 @@ const NavBar = () => {
                             <button
                                 onClick={showNav}
                                 aria-label="contact us"
-                                className="w-full hover:bg-black duration-300 transition-all ease-linear group py-3.5 px-5 max-w-[154px] text-deep-blue rounded-[0px_50px_50px_40px] hover:text-white bg-white flex font-bold text-base items-center text-nowrap !leading-112"
+                                className="w-full gap-2 hover:bg-black duration-300 transition-all ease-linear group py-3.5 px-5 max-w-[154px] text-deep-blue rounded-[0px_50px_50px_40px] hover:text-white bg-white flex font-bold text-base items-center text-nowrap !leading-112"
                             >
                                 Get Started
                                 <span>
@@ -66,20 +66,21 @@ const NavBar = () => {
                                 <Icons icon="btn-arrow" />
                             </span>
                         </button>
-                        <label className="lg:hidden cursor-pointer" onClick={showNav}>
+                        <div
+                            className="lg:hidden cursor-pointer pointer-events-auto"
+                            onClick={showNav}
+                        >
                             {show ? (
-                                <div className="z-30 relative cursor-pointer">
-                                    <span className="flex bg-white h-1 rounded-3xl duration-300 w-6"></span>
-                                    <span className="flex bg-white h-1 rounded-3xl duration-300 w-6 mt-1"></span>
-                                    <span className="flex bg-white h-1 rounded-3xl duration-300 w-6 mt-1"></span>
+                                <div className="z-30 cursor-pointer relative">
+                                    <Icons icon="menuIcon" />
                                 </div>
                             ) : (
-                                <div className="z-20 relative">
-                                    <span className="flex bg-white absolute rounded-3xl -left-7 duration-300 top-1 rotate-45 h-[3px] w-6"></span>
-                                    <span className="flex bg-white absolute rounded-3xl -left-7 duration-300 -rotate-45 h-[3px] w-6 mt-1"></span>
+                                <div className="z-20 cursor-pointer relative">
+                                    <Icons icon="crossIcon" />
                                 </div>
                             )}
-                        </label>
+                        </div>
+
                     </div>
                 </div>
             </div>
