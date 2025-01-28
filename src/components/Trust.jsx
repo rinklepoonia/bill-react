@@ -15,10 +15,10 @@ const Trust = () => {
                 slidesPerView={3}
                 spaceBetween={20}
                 loop={true}
-                autoplay={{
-                    delay: 0,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 0,
+                //     disableOnInteraction: false,
+                // }}
                 speed={3000}
                 allowTouchMove={false}
                 breakpoints={

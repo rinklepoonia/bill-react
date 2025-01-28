@@ -20,7 +20,12 @@ export default {
         "blue": "#003459",
         "pale-grey": "#00000033",
         "prussian-blue": "#003459",
-        //      
+        "dark-green": "#003840",
+        "light-green": "#1BC47A",
+        "pale-blue": "#F3FEFF",
+        "grey-200": "#292929E5",
+        "grey-300":"#292929",
+
   "light-blue": "#eaf9ef",
   "dim-black": "#0000001a",
   "faint-black": "#00000014",
@@ -40,6 +45,7 @@ export default {
           109: "109%",
           150: "150%",
           110: "110%",
+          160:"160%",
           115:"115%",
       },
          backgroundImage: {

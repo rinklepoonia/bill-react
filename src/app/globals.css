@@ -19,14 +19,13 @@ font-family: "Helvetica", sans-serif !important;
   .change-direction{
     direction: rtl;
   }
-  .swiper{
+  #switch.swiper{
     height: 710px !important;
   }
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 0% !important;
     margin-top: 20px !important;
     z-index: 99!important;
-    ;
   }
   .swiper-pagination-bullet{
     background: #00A8E8 !important;
@@ -37,6 +36,9 @@ font-family: "Helvetica", sans-serif !important;
   }
   .swiper-pagination-bullet-active {
     width: 40px !important;
+  }
+  .nav-stroke:hover{
+     -webkit-text-stroke: 0.5px white;
   }
 
 

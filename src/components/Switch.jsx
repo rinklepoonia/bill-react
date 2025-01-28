@@ -19,7 +19,7 @@ const Switch = () => {
                 ))}
             </div>
             <div className='lg:hidden block py-20'>
-                <Swiper  
+                <Swiper id='switch'
                     modules={[Autoplay, Pagination]}
                     pagination={true}
                     spaceBetween={20}

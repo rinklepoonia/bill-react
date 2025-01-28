@@ -1,5 +1,6 @@
 import Accordion from "@/components/Accordion";
 import NavBar from "@/components/common/NavBar";
+import WealthNav from "@/components/common/WealthNav";
 import Comparisons from "@/components/Comparisons";
 import Footer from "@/components/Footer";
 import FullScreenSwiper from "@/components/FullScreenSwiper";
@@ -12,11 +13,13 @@ import RoundCircle from "@/components/RoundCircle";
 import Switch from "@/components/Switch";
 import TezWealth from "@/components/TezWealth";
 import Trust from "@/components/Trust";
+import WealthHero from "@/components/WealthHero";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
+      <WealthHero/>
       <Hero />
       <Trust />
       <Comparisons />
